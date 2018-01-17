@@ -3,13 +3,14 @@
 <html>
     <head>
         <meta charset="utf-8" lang="en-us">
-        <title>Assignment 6: Ajax</title>
+        <title>Assignment 7: Ajax</title>
         <script src="https://cse.taylor.edu/~rjones/COS143/AjaxPractice/login.js" defer></script>
+        <link href="https://cse.taylor.edu/~rjones/COS143/Assignment6/style.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1>Assignment 6: Ajax</h1>
+            <h1>Assignment 7: Ajax</h1>
         </header>
         <p></p>
         <div id="messages">
@@ -17,51 +18,22 @@
         </div>
 
         <form>
-            <label id="unLabel" for="username">Username:</label><br>
-            <input type="text" id="username" name="username" placeholder="Example@site.net"><br>
-            <label id="pwLabel" for="password">Password:</label><br>
-            <input type="password" id="password" name="password" placeholder="Password"><br>
+            <label id="unLabel" for="username">Username:</label>
+            <br>
+            <input type="text" id="username" name="username" placeholder="Example@site.net">
+            <br>
+            <label id="pwLabel" for="password">Password:</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Password">
+            <br>
             <input type="button" id="loginButton" value="Login">
             <input type="button" id="logoutButton" value="Logout">
         </form>
+        <p></p>
+
+        <div id="footer">
+            <div id="member1">Thomas Taylor</div>
+            <div id="member2">Ryan Jones</div>
+        </div>
     </body>
-
-    <style>
-        body {
-            margin: 0px;
-        }
-        header {
-            margin-left: 0px;
-            margin-right: 0px;
-            padding: 50px;
-            font-family: sans-serif;
-            color: white;
-            background-color: black;
-            text-align: center;
-            font-size: 24pt;
-        }
-
-
-        #messages {
-            text-align: center;
-            margin: 25px;
-        }
-
-        form {
-            padding: 5px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 12%;
-        }
-        input {
-            padding: 5px;
-            margin: 3px;
-        }
-        #loginButton {
-            float:left;
-        }
-        #logoutButton {
-            float: right;
-        }
-    </style>
 </html>

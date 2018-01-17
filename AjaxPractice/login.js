@@ -1,3 +1,7 @@
+
+/**
+Function to log users into the system
+*/
 function login(userName, password) {
     var ajax = new XMLHttpRequest();
     ajax.addEventListener("load",function() {
@@ -15,12 +19,9 @@ function login(userName, password) {
     ajax.send(toSend);
 }
 
-loginButton.addEventListener("click", function() {
-    login(username.value, password.value);
-});
-
-logoutButton.addEventListener("click", logout);
-
+/**
+Function to log users out of the system
+*/
 function logout() {
     var ajax = new XMLHttpRequest();
     var d = document.getElementById("messages");
@@ -34,3 +35,9 @@ function logout() {
     var toSend = "method=delete";
     ajax.send(toSend);
 }
+
+loginButton.addEventListener("click", function() {
+    login(username.value, password.value);
+});
+
+logoutButton.addEventListener("click", logout);

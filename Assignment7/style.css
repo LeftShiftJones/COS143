@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+header {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 50px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 24pt;
+}
+
+
+#messages {
+    text-align: center;
+    margin: 25px;
+}
+
+form {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+}
+input {
+    padding: 5px;
+    margin: 3px;
+}
+#loginButton {
+    float:left;
+}
+#logoutButton {
+    float: right;
+}
+
+#footer {
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: cursive;
+    font-size: 12pt
+}
+#member1 {
+    color: white;
+    background-color: black;
+    float: left;
+}
+
+#member2 {
+    color: white;
+    background-color: black;
+    float: right;
+}
