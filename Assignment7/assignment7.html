@@ -2,39 +2,39 @@
 
 <html>
     <head>
-        <!--link rel="stylesheet" href="https://cse.taylor.edu/~rjones/COS143/Assignment6/style.css"-->
-        <meta charset="utf-8" lang="en-US">
-        <title>Assignment 6</title>
-        <script src="https://cse.taylor.edu/~rjones/COS143/Assignment6/accounts.js"></script>
+        <meta charset="utf-8" lang="en-us">
+        <title>Assignment 7: Ajax</title>
+        <script src="https://cse.taylor.edu/~rjones/COS143/Assignment7/accounts.js" defer></script>
+        <link href="https://cse.taylor.edu/~rjones/COS143/Assignment7/style.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <div id="title">
-                <h1>Hello World!</h1>
-            </div>
-            <nav>
-
-            </nav>
+            <h1>Assignment 7: Ajax</h1>
         </header>
+        <p></p>
+        <div id="messages">
+            Messages Go Here.
+        </div>
+        <div id="forms">
+            <form>
+                <label id="unLabel" for="username">Username:</label>
+                <br>
+                <input type="text" id="username" name="username" placeholder="Example@site.net">
+                <br>
+                <label id="pwLabel" for="password">Password:</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <br>
+                <input type="button" id="loginButton" value="Login">
+                <input type="button" id="logoutButton" value="Logout">
+            </form>
+        </div>
+        <p></p>
 
         <footer>
-            <!-- -->
+            <div id="member1">Thomas Taylor</div>
+            <div id="member2">Ryan Jones</div>
         </footer>
-        <style>
-            body {
-                margin: 0px;
-            }
-            header {
-                margin-left: 0px;
-                margin-right: 0px;
-                padding: 50px;
-                font-family: sans-serif;
-                color: white;
-                background-color: black;
-                text-align: center;
-                font-size: 24pt;
-            }
-        </style>
     </body>
 </html>
