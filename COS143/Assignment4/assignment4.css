@@ -1,0 +1,175 @@
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 72pt;
+    width: 85%;
+    margin: 20px;
+}
+ 
+header > a {
+    padding: 5px;
+    border: 3px darkblue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    background-color: lightgray;
+}
+
+li.nav {
+    display: inline;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+li.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+li.nav:hover {
+    cursor: pointer;
+    background-color: darkgray;
+    color: white;
+}
+
+img {
+    height: 100px;
+    position: relative;
+    float: right;
+    transition: width 1s, height 1s;
+    border-radius: 10px;
+}
+
+img:hover {
+    height: 150px;
+}
+
+article  {
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(245, 245, 245);
+    columns: 3 auto;
+    column-rule: 2px solid black;
+    column-gap: 50px;
+    width: 50vw;
+}
+
+article > h2 {
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+}
+
+#articleHead {
+    max-width: 50vw;
+    height: 150px;
+    padding: 18px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 25px;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#articleTitle {
+    font-family: 'Crimson Text', serif;
+    position: static;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0px 0px 2px yellow, 2px 2px 3px black;
+}
+
+#articleSubtitle {
+    position: relative;
+}
+
+header {
+    margin: auto;
+    width: 50%;
+}
+
+#loginBox {
+    max-height: 200px;
+    max-width: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 3px darkblue;
+    float: right;
+    position: fixed;
+    right: 15px;
+}
+
+#password {
+    max-width: 180px;
+}
+
+#username {
+    max-width: 180px;
+}
+
+#loginLabel {
+    padding-bottom: 10px;
+    font-family: 'Crimson Text', serif;
+    font-size: 14pt;
+}
+
+input:not(.submit) {
+    padding: 2px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px;
+    margin: 3px;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+input.submit {
+    font-family: 'Crimson Text', serif;
+    font-size: 12pt;
+    border: 5px solid #32CD32;
+    padding: 3px;
+    background-color: #32CD32; /*Hexadecimal color value */
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px rgb(0, 100, 0); /*rgb color value */
+}
+
+input.submit:hover {
+    cursor: pointer;
+    background: darkgreen;
+    border-color: darkgreen;
+    color: #fff; /*3-digit Hexadecimal color value */
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    max-width: 50%;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+section > h2 {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+section > p, section > ul {
+    margin-left: 120px;
+}
+
+li.font > a {
+    font-family: 'Crimson Text', serif;
+}

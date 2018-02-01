@@ -1,0 +1,173 @@
+header {
+    font-family: 'Lora', serif;
+    background-color: black;
+    text-align: center;
+    max-height: 200px;
+
+}
+
+h1 {
+    margin: auto;
+    padding: 10px;
+    color: white;
+    font-size: 36pt;
+}
+
+body {
+    margin: 0px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form > input {
+    margin: 10px;
+}
+
+input {
+    padding: 5px;
+    margin: 3px;
+}
+
+footer {
+    background-color: white;
+    bottom: 0px;
+    position: fixed;
+    width:100%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Lora', serif; 
+    font-size: 18pt;
+    border-top: 2px solid black;
+}
+
+table {
+    font-family: 'Lora', serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width:60%;
+    border: 2px solid black;
+}
+
+th {
+    text-align: center;
+    text-decoration: none;
+    background-color: #4c247c;
+    color: #fff;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.chartButtons {
+    font-size: 12pt;
+    padding: 10px 15px;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.chartButtons:hover {
+    cursor: pointer;
+}
+
+.good {
+    box-shadow: 0px 0px 10px green;
+}
+
+.bad {
+    box-shadow: 0px 0px 10px red;
+}
+
+#buttons {
+    margin: 25px;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+#logoutButton {
+    float: right;
+    margin-bottom: 20px;
+}
+
+#loggedIn {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    float: left;
+    color: black;
+    font-size: 14pt;
+}
+
+#userEntry{
+    margin:25px;
+    max-width: 25vw;
+}
+
+#login {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20vw;
+    border: 3px solid black;
+    background-color: white;
+}
+
+#stockButtons {
+    text-align: center;
+    width: 95%;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stocks {
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 35%;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+
+
+#chart {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    float: right;
+    max-width: 79vw;
+    width: 78%;
+    max-width: 78%;
+    border: 3px solid black;
+    margin-bottom: 15px;
+}
+
+#portfolioTable {
+    overflow:scroll;
+    height: 35%;
+    max-height: 25%;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

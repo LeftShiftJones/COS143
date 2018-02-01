@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ryan's Assignment 3</title>
+        <meta lang="en-US" charset="utf-8">
+    </head>
+ 
+    <body>
+        <header>
+            <h1>
+                <u>Ryan's Assignment 3</u>
+            </h1>
+            <nav>
+                <a href="https://cse.taylor.edu/~rjones/index.html">Home</a> &nbsp;
+                <a href="https://cse.taylor.edu/~rjones/assignment2.html">Assignment 2</a>
+            </nav>
+        </header>
+        <form action="https://cse.taylor.edu/~cos143/echoForm.php" method="GET" >
+            <section id="dropDown">
+                <h2>Favorite Bond Movie:</h2>
+                <!--label id="bondLabel">Favorite James Bond movie by actor:</label-->
+                <select name="favBondMovie">
+                    <optgroup label="Daniel Craig">
+                        <option value="Casino Royale">Casino Royale</option>
+                        <option value="Quantum of Solace">Quantum of Solace</option>
+                        <option value="Skyfall">Skyfall</option>
+                    </optgroup>
+                    <optgroup label="Pierce Brosnan">
+                        <option value="Goldeneye">Goldeneye</option>
+                        <option value="Tomorrow Never Dies">Tomorrow Never Dies</option>
+                        <option value="Die Another Day">Die Another Day</option>
+                        <option value="The World is Not Enough">The World is Not Enough</option>
+                    </optgroup>
+                </select>
+            </section>
+            <br>
+            <section id="fauxLogin">
+                <h2>Login:</h2>
+                <label id="usernameLabel" for="username">Username: </label>
+                <input type="text" id="username" name="username" placeholder="example@mail.com" size="25"><!--/textarea-->
+                <br><br>
+                <label id="passwordLabel" for="passwordBox">Password:</label>
+                <input type="password" id="passwordBox" size="20" maxlength="20" name="password">
+            </section>
+            <br>
+            <section id="ageRange">
+                <h2>Age:</h2>
+                1<input type="range" name="age" value="60" min="1" max="120" id="age" onmousemove="updateAge()">120 &nbsp;
+                <strong><em>Your age: <span id="showAge">60</span></em></strong>
+            </section>
+            <br>
+            <section id="colorRange">
+                <h2>Favorite Color:</h2>
+                <!--label for="favColor">Favorite Color:</label-->
+                <input type="color" id="favColor" name="favColor">
+            </section>
+            <br>
+            <section id="textareas">
+                <h2>Multiplier:</h2>
+                <label id="textLabel">Type in 2 numbers to multiply:</label><br>
+                <input type="text" id="textOne" size="5" maxlength="10" name="textOne" placeholder="Number" oninput="out.value=parseInt(textOne.value) * parseInt(textTwo.value)"> x<!--/textarea-->
+                <input type="text" id="textTwo" size="5" maxlength="10" name="textTwo" placeholder="Number" oninput="out.value=parseInt(textOne.value) * parseInt(textTwo.value)"> =<!--/textarea-->
+                <output id="out" for="textAreaOne textAreaTwo" name="out">0</output>
+            </section>
+            <br>
+            <section id="commentSpace">
+                <h2>Comments:</h2>
+                <!--label for="comments" id="commentLabel" required>Comments on this web page:</label><br-->
+                <textarea id="comments" rows="3" cols="40" name="comments" placeholder="Commments go here..."></textarea>
+                <br><br>
+                <input type="submit" value="Send to Server">
+            </section>
+        </form>
+        <script>
+            function updateAge() {
+                showAge.innerHTML = age.value;
+            }
+        </script>
+    </body>
+
+</html>

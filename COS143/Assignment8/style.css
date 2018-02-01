@@ -1,0 +1,170 @@
+header {
+    padding: 50px;
+    font-family: 'Lora', serif;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    margin: auto;
+    padding: 25px;
+    color: white;
+    font-size: 40pt;
+}
+
+body {
+    margin: 0px;
+}
+
+
+footer {
+    height: 10vh;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 18pt;
+    margin: auto;
+    padding-top: 10px;
+} 
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form > input {
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#buttons {
+    margin: 25px;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+#messages {
+    text-align: center;
+    margin: 25px;
+}
+
+input {
+    padding: 5px;
+    margin: 3px;
+}
+
+#content {
+    height: 65vh;
+}
+
+footer {
+    text-align: center;
+    font-size: 24pt;
+    border-top: 2px solid black;
+}
+
+#logoutButton {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.good {
+    box-shadow: 0px 0px 10px green;
+}
+
+.bad {
+    box-shadow: 0px 0px 10px red;
+}
+
+table {
+    font-family: 'Lora', serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
+}
+
+th {
+    text-decoration: none;
+    background-color: #5c697c;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#loggedIn {
+    float: right;
+    color: white;
+    font-size: 24pt;
+}
+
+#userEntry{
+    margin:25px;
+    max-width: 25vw;
+}
+
+#login {
+    float: right;
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15vw;
+    border: 3px solid black;
+    margin: 25px;
+    background-color: white;
+}
+
+#stockTableDiv {
+    overflow: auto;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#stockButtons {
+    text-align: center;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stockTable {
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stocks {
+    overflow: auto;
+    float: left;
+    border: 5px solid black;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+    max-height: 55vh;
+}
+
+.chartButtons {
+    font-size: 12pt;
+    padding: 10px 15px;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.chartButtons:hover {
+    cursor: pointer;
+}

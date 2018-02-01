@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+}
+
+header {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 50px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 24pt;
+} 
+
+#messages {
+    text-align: center;
+    margin: 25px;
+}
+
+#content {
+    float: left;
+    width: 50vw;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+input {
+    padding: 5px;
+    margin: 3px;
+}
+
+#loginAndTable {
+    height: 35vw;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#logoutButton {
+    float: right;
+}
+
+#forms {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vw;
+}
+
+#getUsers {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vw;
+}
+
+.good {
+    box-shadow: 0px 0px 10px green;
+}
+
+.bad {
+    box-shadow: 0px 0px 10px red;
+}

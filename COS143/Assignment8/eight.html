@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 8</title>
+    <script src="https://cse.taylor.edu/~rjones/Assignment8/stockwithchart.js" defer></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js" defer></script>
+</head>
+<body>
+    <table id="stockTable" border="2">
+        <tr>
+            <th>Symbol</th>
+            <th>Company Name</th>
+            <th>Open</th>
+            <th>Close</th>
+            <th>High</th>
+            <th>Low</th>
+            <th>Volume</th>
+            <th>Print Chart</th>
+            <th>Add to Portfolio</th>
+        </tr>
+    </table>
+    <form id="forms">
+        Stock Symbol
+        <input type="text" id="stockTicker" name="stockTicker" placeholder="ticker"> Earliest Date
+        <input type="date" id="startDate" name="startDate"> Latest Date
+        <input type="date" id="endDate" name="endDate">
+        <input type="button" id="getDataButton" value="Get Stock Data">
+
+    </form>
+
+    <div id="chart" style="width: "50vw"; height: 500px"></div>
+
+</body>
+
+</html>

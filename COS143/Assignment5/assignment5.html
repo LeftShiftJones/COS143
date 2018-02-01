@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta lang="en-us" charset="utf-8">
+    <title>Assignment 5</title>
+    <link href="https://cse.taylor.edu/~rjones/Assignment5/assignment5.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <script src="https://cse.taylor.edu/~rjones/Assignment5/assignment5.js" defer></script>
+</head>
+ 
+<body>
+    <header>
+        <h1>Assignment 5: DOM Editing</h1>
+    </header>
+
+    <div id="buttonContainer">
+        <ul>
+            <li class="button" id="addButton">1. Add Content</li>
+            <li class="button" id="removeButton">2. Remove Content</li>
+            <li class="button" id="moveButton">3. Move Content</li>
+            <li class="button" id="modifyButton">4. Modify Content</li>
+            <li class="button" id="attributeButton" onclick="changeAttribute(this)">5. Change Attribute</li>
+            <li class="button" id="styleButton">6. Change Style</li>
+            <li class="button" id="duplicateButton">7. Duplicate Content</li>
+        </ul>
+    </div>
+
+    <h4 id="status">Helpful text will be displayed here</h4>
+
+    <p>
+        <span id="changeColor">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit tincidunt mi, a tempus quam tempor id. Pellentesque
+        placerat lacus vitae nulla consequat auctor. Morbi ultrices velit erat, maximus tristique sem dignissim sed. Integer
+        ipsum nibh, rhoncus sit amet justo vel, tincidunt fermentum nisi. Sed ullamcorper ornare urna, sed dignissim erat
+        ultricies at. Nunc vehicula ante sit amet nibh ornare accumsan tincidunt id enim. Integer dui leo, blandit et purus
+        sit amet, sodales volutpat nisl. Nulla eu odio eu arcu mattis feugiat. Sed dictum porttitor dictum. Pellentesque
+        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque leo ex, lobortis sit
+        amet tristique at, scelerisque nec dui.
+    </span>
+    margin-left: auto;
+        <br><br>
+        <span id="duplicate">
+        Suspendisse faucibus convallis ipsum, sit amet rhoncus libero luctus molestie. Nam mollis pharetra urna,
+        eget mollis nisl venenatis vitae. Vestibulum vulputate est vitae maximus faucibus. Nunc a hendrerit neque, non dictum
+        turpis. Sed faucibus nisl lectus, id interdum mauris fringilla vitae. Etiam consectetur dui sed enim egestas, sed
+        rutrum quam ornare. Aliquam erat dui, facilisis ac augue ac, ultrices imperdiet odio. Proin at metus eu justo commodo
+        consectetur et eu leo. Maecenas nec purus rutrum, fringilla mi ac, laoreet orci.
+        </span>
+        <br><br>
+        <span id="last">
+         Nam tincidunt justo eget felis malesuada, non hendrerit dolor consequat. Nam nec elit a metus tempus
+        ultricies nec id est. Praesent convallis consectetur metus quis viverra. Morbi felis dolor, pretium sed eros nec,
+        semper sagittis metus. Etiam sit amet augue sit amet neque venenatis porttitor id vitae dui. Sed sed mauris massa.
+        Vivamus a leo quis risus elementum semper ut id diam. Fusce elementum congue tellus eget feugiat. Aenean id tincidunt
+        mi, posuere congue sem. Vivamus lorem mauris, gravida finibus quam ac, euismod pharetra nulla.
+        <br><br> Cras consequat pharetra lorem. Suspendisse sit amet cursus justo, vel hendrerit mauris. Ut condimentum felis
+        in turpis consequat, vel vehicula ante interdum. Mauris porta rutrum feugiat. Morbi sed nibh sapien. Mauris fringilla,
+        nunc id rutrum consequat, elit mi aliquam libero, nec molestie dolor velit a massa. Vivamus sed purus arcu. Pellentesque
+        consequat diam nulla. In consequat, velit condimentum blandit fringilla, ligula mi fermentum turpis, non sodales
+        risus velit eget nisi. Phasellus mollis pretium nulla, vitae mollis arcu pretium non. Praesent ultricies volutpat
+        ante eget rutrum.
+    </p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Radioactive_symbol.png" id="radioactive" height="100px">
+</body>
+
+</html>

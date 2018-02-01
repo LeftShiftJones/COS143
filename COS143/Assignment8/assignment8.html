@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Assignment 8 | Stock Tracker</title>
+    <meta charset="utf-8" lang="en-us">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://cse.taylor.edu/~rjones/Assignment8/style.css" rel="stylesheet">
+    <script src="https://cse.taylor.edu/~rjones/Assignment8/stocks.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Assignment 8: Stock Tracker</h1>
+        <nav id="loggedIn">
+            Not logged in
+        </nav>
+    </header>
+    <div id="content">
+        <div id="login">
+            <div id="messages">
+                Not logged in 
+            </div>
+            <form id="userEntry">
+                <div id="loginSection" class="hidden">
+                    <label id="unLabel" for="username">Username: </label>
+                    <br>
+                    <input type="text" id="username" name="username" placeholder="username@website.com">
+                    <br>
+                    <label id="pwLabel" for="password">Password: </label>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <br>
+                    <input type="button" id="submitLogin" value="Submit">
+                </div>
+
+                <div id="createAccount" class="hidden">
+                    <label id="newUsernameLabel" for="newUsername">New Username: </label>
+                    <br>
+                    <input type="text" id="newUsername" name="newUsername" placeholder="4-6 alphanumeric characters">
+                    <label id="usernameOK" for="newUsername"></label>
+                    <br>
+                    <label id="newPasswordLabel" for="newPassword">New Password: </label>
+                    <br>
+                    <input type="password" id="newPassword" name="newPassword" placeholder="4-6 alphanumeric characters">
+                    <br>
+                    <input type="button" id="submitAccount" value="Submit">
+                </div>
+
+                <div id="updateAccount" class="hidden">
+                    <div id="adminUpdate" class="hidden">
+                        <label id="adminUpdateLabel">Username: </label>
+                        <input type="text" id="updateUsername" name="updateUsername">
+                        <br>
+                    </div>
+
+                    <label id="updatePasswordLabel" for="updatePassword">New Password: </label>
+                    <br>
+                    <input type="password" id="updatePassword" name="updatePassword">
+                    <br>
+                    <label id="updatePasswordConfirmLabel" for="updatePasswordConfirm">Confirm Password: </label>
+                    <br>
+                    <input type="password" id="updatePasswordConfirm" name="updatePasswordConfirm">
+                    <br>
+                    <input type="button" id="submitUpdate" value="Submit">
+                </div>
+
+                <div id="deleteAccount" class="hidden">
+                    <label id="deleteUsernameLabel" for="deleteUsername">User to Delete: </label>
+                    <br>
+                    <input type="text" id="deleteUsername" name="deleteUsername">
+                    <br>
+                    <input type="button" id="submitDelete" value="Submit">
+                </div>
+
+                <div id="buttons">
+                    <input type="button" id="loginButton" value="Login">
+                    <input type="button" id="createButton" value="Create Account">
+                    <input type="button" id="logoutButton" class="hidden" value="Logout">
+                    <input type="button" id="deleteButton" class="hidden" value="Delete Account">
+                    <input type="button" id="updateButton" class="hidden" value="Update Account">
+                </div>
+            </form>
+        </div>
+        <div id="stocks" class="hidden">
+            <div id="stockTableDiv">
+                <form id="stockButtons">
+                    Stock Symbol:
+                    <input type="text" id="stockTicker" name="stockTicker" placeholder="ticker"> Earliest Date:
+                    <input type="date" id="startDate" name="startDate"> Latest Date:
+                    <input type="date" id="endDate" name="endDate">
+                    <input type="button" id="getDataButton" value="Get Stock Data">
+
+                </form>
+                <table id="stockTable">
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Company Name</th>
+                        <th>Open</th>
+                        <th>Close</th>
+                        <th>High</th>
+                        <th>Low</th>
+                        <th>Volume</th>
+                        <th>Print Chart</th>
+                        <th>Add to Portfolio</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Thomas Taylor | Ryan Jones
+    </footer>
+</body>
+
+</html>
